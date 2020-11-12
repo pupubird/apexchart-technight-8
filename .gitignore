@@ -1,0 +1,17 @@
+.DS_Store
+node_modules
+package-lock.json
+yarn.lock
+
+public/*
+!public/index.html
+!public/global.css
+!public/favicon.png
+!public/icon.png
+!public/manifest.json
+!public/student_performance.json
+
+# Service Worker
+**/workbox*
+**/sw*
+.vercel
